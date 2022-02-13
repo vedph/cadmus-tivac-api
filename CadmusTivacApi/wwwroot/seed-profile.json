@@ -305,7 +305,7 @@
       ]
     },
     {
-      "id": "grf-support-functions",
+      "id": "grf-support-functions@en",
       "entries": [
         {
           "id": "-",
@@ -322,7 +322,7 @@
       ]
     },
     {
-      "id": "grf-support-materials",
+      "id": "grf-support-materials@en",
       "entries": [
         {
           "id": "stone",
@@ -335,7 +335,7 @@
       ]
     },
     {
-      "id": "grf-support-object-types",
+      "id": "grf-support-object-types@en",
       "entries": [
         {
           "id": "street",
@@ -348,7 +348,7 @@
       ]
     },
     {
-      "id": "grf-support-types",
+      "id": "grf-support-types@en",
       "entries": [
         {
           "id": "street",
@@ -361,7 +361,7 @@
       ]
     },
     {
-      "id": "grf-writing-casings",
+      "id": "grf-writing-casings@en",
       "entries": [
         {
           "id": "-",
@@ -382,7 +382,7 @@
       ]
     },
     {
-      "id": "grf-writing-content-flags",
+      "id": "grf-writing-content-flags@en",
       "entries": [
         {
           "id": "text",
@@ -423,7 +423,7 @@
       ]
     },
     {
-      "id": "grf-writing-fig-types",
+      "id": "grf-writing-fig-types@en",
       "entries": [
         {
           "id": "-",
@@ -440,7 +440,7 @@
       ]
     },
     {
-      "id": "grf-writing-frame-types",
+      "id": "grf-writing-frame-types@en",
       "entries": [
         {
           "id": "-",
@@ -457,7 +457,7 @@
       ]
     },
     {
-      "id": "grf-writing-languages",
+      "id": "grf-writing-languages@en",
       "entries": [
         {
           "id": "lat",
@@ -474,7 +474,7 @@
       ]
     },
     {
-      "id": "grf-writing-systems",
+      "id": "grf-writing-systems@en",
       "entries": [
         {
           "id": "-",
@@ -491,7 +491,7 @@
       ]
     },
     {
-      "id": "grf-writing-techniques",
+      "id": "grf-writing-techniques@en",
       "entries": [
         {
           "id": "-",
@@ -508,7 +508,7 @@
       ]
     },
     {
-      "id": "grf-writing-tools",
+      "id": "grf-writing-tools@en",
       "entries": [
         {
           "id": "-",
@@ -525,7 +525,7 @@
       ]
     },
     {
-      "id": "grf-writing-types",
+      "id": "grf-writing-types@en",
       "entries": [
         {
           "id": "-",
