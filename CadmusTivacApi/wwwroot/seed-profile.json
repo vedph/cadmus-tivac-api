@@ -1,0 +1,661 @@
+﻿{
+  "facets": [
+    {
+      "id": "graffiti",
+      "label": "graffiti",
+      "description": "Graffiti",
+      "colorKey": "EBD586",
+      "partDefinitions": [
+        {
+          "typeId": "it.vedph.tivac.grf-location",
+          "name": "location",
+          "description": "Graffiti's location.",
+          "colorKey": "98F8F8",
+          "groupKey": "object",
+          "sortKey": "a"
+        },
+        {
+          "typeId": "it.vedph.historical-date",
+          "name": "date",
+          "description": "Graffiti's datation.",
+          "colorKey": "98F8F8",
+          "groupKey": "object",
+          "sortKey": "b"
+        },
+        {
+          "typeId": "it.vedph.tivac.grf-support",
+          "name": "support",
+          "description": "Graffiti's material support.",
+          "colorKey": "98F8F8",
+          "groupKey": "object",
+          "sortKey": "c"
+        },
+        {
+          "typeId": "it.vedph.tivac.grf-writing",
+          "name": "writing",
+          "description": "Graffiti's writing description.",
+          "colorKey": "98F8F8",
+          "groupKey": "content",
+          "sortKey": "d"
+        },
+        {
+          "typeId": "it.vedph.categories",
+          "name": "categories",
+          "description": "Graffiti's categories.",
+          "colorKey": "98F8F8",
+          "groupKey": "content",
+          "sortKey": "e"
+        },
+        {
+          "typeId": "it.vedph.token-text",
+          "roleId": "base-text",
+          "IsRequired": true,
+          "name": "text",
+          "description": "Graffiti's text.",
+          "colorKey": "31AB54",
+          "groupKey": "text",
+          "sortKey": "f"
+        },
+        {
+          "typeId": "it.vedph.token-text-layer",
+          "roleId": "fr.it.vedph.apparatus",
+          "name": "apparatus",
+          "description": "Critical apparatus.",
+          "colorKey": "D4E0A4",
+          "groupKey": "text",
+          "sortKey": "g"
+        },
+        {
+          "typeId": "it.vedph.token-text-layer",
+          "roleId": "fr.it.vedph.orthography",
+          "name": "orthography",
+          "description": "Standard orthography.",
+          "colorKey": "F8D040",
+          "groupKey": "text",
+          "sortKey": "h"
+        },
+        {
+          "typeId": "it.vedph.token-text-layer",
+          "roleId": "fr.it.vedph.comment",
+          "name": "comments",
+          "description": "Comments on text.",
+          "colorKey": "F8D040",
+          "groupKey": "text",
+          "sortKey": "i"
+        },
+        {
+          "typeId": "it.vedph.metadata",
+          "name": "metadata",
+          "description": "Generic metadata.",
+          "colorKey": "9898F8",
+          "groupKey": "general",
+          "sortKey": "j"
+        },
+        {
+          "typeId": "it.vedph.keywords",
+          "name": "keywords",
+          "description": "Generic keywords.",
+          "colorKey": "99CCFF",
+          "groupKey": "general",
+          "sortKey": "k"
+        },
+        {
+          "typeId": "it.vedph.note",
+          "name": "note",
+          "description": "A free text note.",
+          "colorKey": "B0A0F8",
+          "groupKey": "general",
+          "sortKey": "l"
+        },
+        {
+          "typeId": "it.vedph.bibliography",
+          "name": "bibliography",
+          "description": "Bibliography.",
+          "colorKey": "20B2AA",
+          "groupKey": "general",
+          "sortKey": "m"
+        }
+      ]
+    }
+  ],
+  "flags": [
+    {
+      "id": 1,
+      "label": "warn",
+      "description": "The item has warnings.",
+      "colorKey": "FFD95C"
+    },
+    {
+      "id": 2,
+      "label": "complete",
+      "description": "The item is complete.",
+      "colorKey": "49D6CD"
+    },
+    {
+      "id": 4,
+      "label": "revised",
+      "description": "The item is revised.",
+      "colorKey": "49D697"
+    }
+  ],
+  "index": {
+    "writer": {
+      "id": "item-index-writer.mysql"
+    },
+    "reader": {
+      "id": "item-index-reader.mysql"
+    }
+  },
+  "browsers": [
+    {
+      "id": "it.vedph.item-browser.mongo.hierarchy"
+    }
+  ],
+  "thesauri": [
+    {
+      "id": "model-types@en",
+      "entries": [
+        {
+          "id": "it.vedph.tivac.grf-location",
+          "value": "location"
+        },
+        {
+          "id": "it.vedph.historical-date",
+          "value": "date"
+        },
+        {
+          "id": "it.vedph.tivac.grf-support",
+          "value": "support"
+        },
+        {
+          "id": "it.vedph.tivac.grf-writing",
+          "value": "support"
+        },
+        {
+          "id": "it.vedph.categories",
+          "value": "categories"
+        },
+        {
+          "id": "it.vedph.token-text",
+          "value": "text"
+        },
+        {
+          "id": "it.vedph.token-text-layer",
+          "value": "text layer"
+        },
+        {
+          "id": "it.vedph.metadata",
+          "value": "metadata"
+        },
+        {
+          "id": "it.vedph.keywords",
+          "value": "keywords"
+        },
+        {
+          "id": "it.vedph.note",
+          "value": "note"
+        },
+        {
+          "id": "it.vedph.bibliography",
+          "value": "bibliography"
+        },
+        {
+          "id": "fr.it.vedph.apparatus",
+          "value": "apparatus fr."
+        },
+        {
+          "id": "fr.it.vedph.orthography",
+          "value": "orthography fr."
+        },
+        {
+          "id": "fr.it.vedph.comment",
+          "value": "comment fr."
+        }
+      ]
+    },
+    {
+      "id": "bibliography-author-roles@en",
+      "entries": [
+        {
+          "id": "ed",
+          "value": "editor"
+        },
+        {
+          "id": "tr",
+          "value": "translator"
+        },
+        {
+          "id": "org",
+          "value": "organization"
+        }
+      ]
+    },
+    {
+      "id": "bibliography-types@en",
+      "entries": [
+        {
+          "id": "book",
+          "value": "book"
+        },
+        {
+          "id": "article-j",
+          "value": "journal article"
+        },
+        {
+          "id": "article-b",
+          "value": "book article"
+        },
+        {
+          "id": "article-p",
+          "value": "proceedings article"
+        },
+        {
+          "id": "review",
+          "value": "review"
+        },
+        {
+          "id": "ebook",
+          "value": "e-book"
+        },
+        {
+          "id": "site",
+          "value": "web site"
+        },
+        {
+          "id": "magazine",
+          "value": "magazine"
+        },
+        {
+          "id": "newspaper",
+          "value": "newspaper"
+        },
+        {
+          "id": "tweet",
+          "value": "tweet"
+        }
+      ]
+    },
+    {
+      "id": "categories@en",
+      "entries": [
+        {
+          "id": "cnt",
+          "value": "contenuto"
+        },
+        {
+          "id": "cnt.funerary",
+          "value": "funebre"
+        },
+        {
+          "id": "cnt.signature",
+          "value": "firma"
+        },
+        {
+          "id": "fig",
+          "value": "figurative"
+        },
+        {
+          "id": "fig.anatomic",
+          "value": "parti anatomiche"
+        },
+        {
+          "id": "fig.face",
+          "value": "volti"
+        }
+      ]
+    },
+    {
+      "id": "grf-support-functions",
+      "entries": [
+        {
+          "id": "street",
+          "value": "strada"
+        },
+        {
+          "id": "house",
+          "value": "casa"
+        }
+      ]
+    },
+    {
+      "id": "grf-support-materials",
+      "entries": [
+        {
+          "id": "stone",
+          "value": "litico"
+        },
+        {
+          "id": "wood",
+          "value": "legno"
+        }
+      ]
+    },
+    {
+      "id": "grf-support-object-types",
+      "entries": [
+        {
+          "id": "street",
+          "value": "strada"
+        },
+        {
+          "id": "bridge",
+          "value": "ponte"
+        }
+      ]
+    },
+    {
+      "id": "grf-support-types",
+      "entries": [
+        {
+          "id": "street",
+          "value": "strada"
+        },
+        {
+          "id": "door",
+          "value": "porta"
+        }
+      ]
+    },
+    {
+      "id": "grf-writing-casings",
+      "entries": [
+        {
+          "id": "-",
+          "value": "---"
+        },
+        {
+          "id": "upper",
+          "value": "maiuscolo prev."
+        },
+        {
+          "id": "lower",
+          "value": "minuscolo prev."
+        },
+        {
+          "id": "mix",
+          "value": "misto"
+        }
+      ]
+    },
+    {
+      "id": "grf-writing-content-flags",
+      "entries": [
+        {
+          "id": "text",
+          "value": "testo"
+        },
+        {
+          "id": "digit",
+          "value": "numeri"
+        },
+        {
+          "id": "punct",
+          "value": "interpunzioni"
+        },
+        {
+          "id": "ligature",
+          "value": "legature"
+        },
+        {
+          "id": "abbr",
+          "value": "abbreviazioni"
+        },
+        {
+          "id": "mono",
+          "value": "monogrammi"
+        },
+        {
+          "id": "1-letter",
+          "value": "lettera singola"
+        },
+        {
+          "id": "undef-letter",
+          "value": "lettere indef."
+        },
+        {
+          "id": "undef-drawing",
+          "value": "disegno indef."
+        }
+      ]
+    },
+    {
+      "id": "grf-writing-fig-types",
+      "entries": [
+        {
+          "id": "-",
+          "value": "---"
+        },
+        {
+          "id": "arrow",
+          "value": "freccia"
+        },
+        {
+          "id": "cross",
+          "value": "croce"
+        }
+      ]
+    },
+    {
+      "id": "grf-writing-frame-types",
+      "entries": [
+        {
+          "id": "-",
+          "value": "---"
+        },
+        {
+          "id": "rect",
+          "value": "rettangolare"
+        },
+        {
+          "id": "oval",
+          "value": "ovale"
+        }
+      ]
+    },
+    {
+      "id": "grf-writing-languages",
+      "entries": [
+        {
+          "id": "lat",
+          "value": "Latin"
+        },
+        {
+          "id": "grc",
+          "value": "Ancient Greek"
+        },
+        {
+          "id": "ita",
+          "value": "Italian"
+        }
+      ]
+    },
+    {
+      "id": "grf-writing-systems",
+      "entries": [
+        {
+          "id": "-",
+          "value": "---"
+        },
+        {
+          "id": "latn",
+          "value": "latino"
+        },
+        {
+          "id": "grek",
+          "value": "greco"
+        }
+      ]
+    },
+    {
+      "id": "grf-writing-techniques",
+      "entries": [
+        {
+          "id": "-",
+          "value": "---"
+        },
+        {
+          "id": "graffiti",
+          "value": "graffito"
+        },
+        {
+          "id": "ink",
+          "value": "inchiostro"
+        }
+      ]
+    },
+    {
+      "id": "grf-writing-tools",
+      "entries": [
+        {
+          "id": "-",
+          "value": "---"
+        },
+        {
+          "id": "pen",
+          "value": "penna"
+        },
+        {
+          "id": "blade",
+          "value": "lama"
+        }
+      ]
+    },
+    {
+      "id": "grf-writing-types",
+      "entries": [
+        {
+          "id": "-",
+          "value": "---"
+        },
+        {
+          "id": "capital",
+          "value": "maiuscolo"
+        }
+      ]
+    },
+    {
+      "id": "languages@en",
+      "entries": [
+        {
+          "id": "eng",
+          "value": "English"
+        },
+        {
+          "id": "fre",
+          "value": "French"
+        },
+        {
+          "id": "deu",
+          "value": "German"
+        },
+        {
+          "id": "grc",
+          "value": "Ancient Greek"
+        },
+        {
+          "id": "gre",
+          "value": "Modern Greek"
+        },
+        {
+          "id": "ita",
+          "value": "Italian"
+        },
+        {
+          "id": "lat",
+          "value": "Latin"
+        },
+        {
+          "id": "spa",
+          "value": "Spanish"
+        }
+      ]
+    },
+    {
+      "id": "physical-size-units@en",
+      "entries": [
+        {
+          "id": "cm",
+          "value": "cm"
+        },
+        {
+          "id": "mm",
+          "value": "mm"
+        }
+      ]
+    }
+  ],
+  "seed": {
+    "options": {
+      "seed": 1,
+      "users": ["zeus"],
+      "partRoles": [],
+      "fragmentRoles": []
+    },
+    "partSeeders": [
+      {
+        "id": "seed.it.vedph.tivac.grf-location"
+      },
+      {
+        "id": "seed.it.vedph.historical-date"
+      },
+      {
+        "id": "seed.it.vedph.tivac.grf-support"
+      },
+      {
+        "id": "seed.it.vedph.tivac.grf-writing"
+      },
+      {
+        "id": "seed.it.vedph.categories",
+        "options": {
+          "maxCategoriesPerItem": 3,
+          "categories": ["funerary", "signature", "face", "cross", "heart"]
+        }
+      },
+      {
+        "id": "seed.it.vedph.token-text"
+      },
+      {
+        "id": "seed.it.vedph.token-text-layer",
+        "options": {
+          "maxFragmentCount": 3
+        }
+      },
+      {
+        "id": "seed.it.vedph.metadata"
+      },
+      {
+        "id": "seed.it.vedph.keywords",
+        "options": {
+          "languages": ["eng", "deu", "ita", "fra", "spa"]
+        }
+      },
+      {
+        "id": "seed.it.vedph.note"
+      },
+      {
+        "id": "seed.it.vedph.bibliography",
+        "options": {
+          "authors": [
+            "Doe,Jane",
+            "Doherty,Charles",
+            "Orwell,William",
+            "Sampson,James",
+            "Voss,Francis"
+          ],
+          "journals": ["AJPh", "CJ", "CPh", "CQ", "IF"]
+        }
+      }
+    ],
+    "fragmentSeeders": [
+      {
+        "id": "seed.fr.it.vedph.apparatus"
+      },
+      {
+        "id": "seed.fr.it.vedph.orthography"
+      },
+      {
+        "id": "seed.fr.it.vedph.comment"
+      }
+    ]
+  }
+}
