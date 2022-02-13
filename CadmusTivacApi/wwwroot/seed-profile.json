@@ -308,6 +308,10 @@
       "id": "grf-support-functions",
       "entries": [
         {
+          "id": "-",
+          "value": "---"
+        },
+        {
           "id": "street",
           "value": "strada"
         },
