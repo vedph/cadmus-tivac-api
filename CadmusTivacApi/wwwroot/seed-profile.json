@@ -312,12 +312,48 @@
           "value": "---"
         },
         {
-          "id": "street",
-          "value": "strada"
+          "id": "home",
+          "value": "home"
         },
         {
-          "id": "house",
-          "value": "casa"
+          "id": "church",
+          "value": "church"
+        },
+        {
+          "id": "cloister",
+          "value": "cloister"
+        },
+        {
+          "id": "condominium",
+          "value": "condominium"
+        },
+        {
+          "id": "colannade",
+          "value": "colonnade"
+        },
+        {
+          "id": "convent",
+          "value": "convent"
+        },
+        {
+          "id": "warehouse",
+          "value": "warehouse"
+        },
+        {
+          "id": "palace",
+          "value": "palace"
+        },
+        {
+          "id": "well",
+          "value": "well"
+        },
+        {
+          "id": "prison",
+          "value": "prison"
+        },
+        {
+          "id": "street",
+          "value": "street"
         }
       ]
     },
@@ -325,12 +361,28 @@
       "id": "grf-support-materials@en",
       "entries": [
         {
-          "id": "stone",
-          "value": "litico"
+          "id": "concrete",
+          "value": "concrete"
+        },
+        {
+          "id": "plaster",
+          "value": "plaster"
         },
         {
           "id": "wood",
-          "value": "legno"
+          "value": "wood"
+        },
+        {
+          "id": "stone",
+          "value": "stone"
+        },
+        {
+          "id": "brick",
+          "value": "brick"
+        },
+        {
+          "id": "metal",
+          "value": "metal"
         }
       ]
     },
@@ -351,12 +403,64 @@
       "id": "grf-support-types@en",
       "entries": [
         {
-          "id": "street",
-          "value": "strada"
+          "id": "-",
+          "value": "---"
+        },
+        {
+          "id": "balustrade",
+          "value": "balustrade"
+        },
+        {
+          "id": "sill",
+          "value": "still"
+        },
+        {
+          "id": "column",
+          "value": "column"
+        },
+        {
+          "id": "step",
+          "value": "step"
+        },
+        {
+          "id": "tombstone",
+          "value": "tombstone"
+        },
+        {
+          "id": "eccl-furniture",
+          "value": "ecclesiastical furniture"
+        },
+        {
+          "id": "wall",
+          "value": "wall"
+        },
+        {
+          "id": "bench",
+          "value": "bench"
+        },
+        {
+          "id": "floor",
+          "value": "floor"
+        },
+        {
+          "id": "pillar",
+          "value": "pillar"
         },
         {
           "id": "door",
-          "value": "porta"
+          "value": "door"
+        },
+        {
+          "id": "well",
+          "value": "well"
+        },
+        {
+          "id": "jamb",
+          "value": "jamb"
+        },
+        {
+          "id": "street",
+          "value": "street"
         }
       ]
     },
