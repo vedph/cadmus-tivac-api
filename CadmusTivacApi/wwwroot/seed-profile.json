@@ -280,27 +280,187 @@
       "entries": [
         {
           "id": "cnt",
-          "value": "contenuto"
+          "value": "content"
         },
         {
           "id": "cnt.funerary",
-          "value": "funebre"
+          "value": "content: funerary"
         },
         {
           "id": "cnt.signature",
-          "value": "firma"
+          "value": "content: signature"
+        },
+        {
+          "id": "cnt.celebratory",
+          "value": "content: celebratory"
+        },
+        {
+          "id": "cnt.exhortative",
+          "value": "content: exhortative"
+        },
+        {
+          "id": "cnt.didactic",
+          "value": "content: didactic"
+        },
+        {
+          "id": "cnt.initials",
+          "value": "content: initials name"
+        },
+        {
+          "id": "cnt.sign",
+          "value": "content: sign"
+        },
+        {
+          "id": "cnt.signage",
+          "value": "content: signage"
+        },
+        {
+          "id": "cnt.citation",
+          "value": "content: citation"
+        },
+        {
+          "id": "cnt.defame",
+          "value": "content: defame"
+        },
+        {
+          "id": "cnt.sport",
+          "value": "content: sport"
+        },
+        {
+          "id": "cnt.prostitution",
+          "value": "content: prostitution"
+        },
+        {
+          "id": "cnt.politics",
+          "value": "content: politics"
+        },
+        {
+          "id": "cnt.religious",
+          "value": "content: religious"
+        },
+        {
+          "id": "cnt.prayer",
+          "value": "content: prayer"
+        },
+        {
+          "id": "cnt.exvoto",
+          "value": "content: ex voto"
+        },
+        {
+          "id": "cnt.love",
+          "value": "content: love"
+        },
+        {
+          "id": "cnt.prose",
+          "value": "content: prose"
+        },
+        {
+          "id": "cnt.poetry",
+          "value": "content: poetry"
+        },
+        {
+          "id": "cnt.speakers",
+          "value": "content: speakers"
+        },
+        {
+          "id": "cnt.insult",
+          "value": "content: insult"
+        },
+        {
+          "id": "cnt.swearing",
+          "value": "content: swearing"
         },
         {
           "id": "fig",
           "value": "figurative"
         },
         {
-          "id": "fig.anatomic",
-          "value": "parti anatomiche"
+          "id": "fig.animal",
+          "value": "figurative: animal"
+        },
+        {
+          "id": "fig.flag",
+          "value": "figurative: flag"
+        },
+        {
+          "id": "fig.coat",
+          "value": "figurative: coat of arms"
+        },
+        {
+          "id": "fig.armor",
+          "value": "figurative: armor"
+        },
+        {
+          "id": "fig.weapon",
+          "value": "figurative: weapon"
+        },
+        {
+          "id": "fig.game",
+          "value": "figurative: game"
+        },
+        {
+          "id": "fig.plant",
+          "value": "figurative: plant"
+        },
+        {
+          "id": "fig.boat",
+          "value": "figurative: boat"
+        },
+        {
+          "id": "fig.geometric",
+          "value": "figurative: geometric"
+        },
+        {
+          "id": "fig.landscape",
+          "value": "figurative: landscape"
+        },
+        {
+          "id": "fig.architect",
+          "value": "figurative: architectures"
+        },
+        {
+          "id": "fig.heart",
+          "value": "figurative: heart"
+        },
+        {
+          "id": "fig.cross",
+          "value": "figurative: cross"
+        },
+        {
+          "id": "fig.human",
+          "value": "figurative: human figure"
+        },
+        {
+          "id": "fig.bust",
+          "value": "figurative: bust"
         },
         {
           "id": "fig.face",
-          "value": "volti"
+          "value": "figurative: face"
+        },
+        {
+          "id": "fig.erotic",
+          "value": "figurative: erotic"
+        },
+        {
+          "id": "fig.anatomical",
+          "value": "figurative: anatomical parts"
+        },
+        {
+          "id": "fig.arrow",
+          "value": "figurative: arrow"
+        },
+        {
+          "id": "fig.tool",
+          "value": "figurative: tool"
+        },
+        {
+          "id": "fig.signboard",
+          "value": "figurative: signboard"
+        },
+        {
+          "id": "fig.symbol",
+          "value": "figurative: symbol"
         }
       ]
     },
@@ -473,15 +633,11 @@
         },
         {
           "id": "upper",
-          "value": "maiuscolo prev."
+          "value": "mostly uppercase"
         },
         {
           "id": "lower",
-          "value": "minuscolo prev."
-        },
-        {
-          "id": "mix",
-          "value": "misto"
+          "value": "mostly lowercase"
         }
       ]
     },
@@ -551,12 +707,44 @@
           "value": "---"
         },
         {
+          "id": "square",
+          "value": "square"
+        },
+        {
           "id": "rect",
-          "value": "rettangolare"
+          "value": "rectangular"
         },
         {
           "id": "oval",
-          "value": "ovale"
+          "value": "oval"
+        },
+        {
+          "id": "round",
+          "value": "round"
+        },
+        {
+          "id": "heart",
+          "value": "heart"
+        },
+        {
+          "id": "cross",
+          "value": "cross"
+        },
+        {
+          "id": "flag",
+          "value": "flag"
+        },
+        {
+          "id": "cartouche",
+          "value": "cartouche"
+        },
+        {
+          "id": "signboard",
+          "value": "signboard"
+        },
+        {
+          "id": "cloud",
+          "value": "cloud"
         }
       ]
     },
@@ -636,8 +824,16 @@
           "value": "---"
         },
         {
-          "id": "capital",
-          "value": "maiuscolo"
+          "id": "upper",
+          "value": "uppercase"
+        },
+        {
+          "id": "lower",
+          "value": "lowercase"
+        },
+        {
+          "id": "italic",
+          "value": "italic"
         }
       ]
     },
@@ -716,7 +912,12 @@
         "id": "seed.it.vedph.categories",
         "options": {
           "maxCategoriesPerItem": 3,
-          "categories": ["cnt.funerary", "cnt.signature", "fig.face", "fig.anatomic"]
+          "categories": [
+            "cnt.funerary",
+            "cnt.signature",
+            "fig.face",
+            "fig.anatomic"
+          ]
         }
       },
       {
@@ -764,8 +965,13 @@
       {
         "id": "seed.fr.it.vedph.comment",
         "options": {
-          "languages": [ "eng", "ita" ],
-          "categories": [ "cnt.funerary", "cnt.signature", "fig.face", "fig.anatomic" ]
+          "languages": ["eng", "ita"],
+          "categories": [
+            "cnt.funerary",
+            "cnt.signature",
+            "fig.face",
+            "fig.anatomic"
+          ]
         }
       }
     ]
