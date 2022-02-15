@@ -690,12 +690,92 @@
           "value": "---"
         },
         {
-          "id": "arrow",
-          "value": "freccia"
+          "id": "animal",
+          "value": "animal"
+        },
+        {
+          "id": "flag",
+          "value": "flag"
+        },
+        {
+          "id": "coat",
+          "value": "coat of arms"
+        },
+        {
+          "id": "armor",
+          "value": "armor"
+        },
+        {
+          "id": "weapon",
+          "value": "weapon"
+        },
+        {
+          "id": "game",
+          "value": "game"
+        },
+        {
+          "id": "plant",
+          "value": "plant"
+        },
+        {
+          "id": "boat",
+          "value": "boat"
+        },
+        {
+          "id": "geometric",
+          "value": "geometric"
+        },
+        {
+          "id": "landscape",
+          "value": "landscape"
+        },
+        {
+          "id": "architect",
+          "value": "architectures"
+        },
+        {
+          "id": "heart",
+          "value": "heart"
         },
         {
           "id": "cross",
-          "value": "croce"
+          "value": "cross"
+        },
+        {
+          "id": "human",
+          "value": "human figure"
+        },
+        {
+          "id": "bust",
+          "value": "bust"
+        },
+        {
+          "id": "face",
+          "value": "face"
+        },
+        {
+          "id": "erotic",
+          "value": "erotic"
+        },
+        {
+          "id": "anatomical",
+          "value": "anatomical parts"
+        },
+        {
+          "id": "arrow",
+          "value": "arrow"
+        },
+        {
+          "id": "tool",
+          "value": "attrezzo"
+        },
+        {
+          "id": "signboard",
+          "value": "signboard"
+        },
+        {
+          "id": "symbol",
+          "value": "symbol"
         }
       ]
     },
@@ -752,16 +832,36 @@
       "id": "grf-writing-languages@en",
       "entries": [
         {
-          "id": "lat",
-          "value": "Latin"
+          "id": "eng",
+          "value": "English"
+        },
+        {
+          "id": "fre",
+          "value": "French"
+        },
+        {
+          "id": "deu",
+          "value": "German"
         },
         {
           "id": "grc",
           "value": "Ancient Greek"
         },
         {
+          "id": "gre",
+          "value": "Modern Greek"
+        },
+        {
           "id": "ita",
           "value": "Italian"
+        },
+        {
+          "id": "lat",
+          "value": "Latin"
+        },
+        {
+          "id": "spa",
+          "value": "Spanish"
         }
       ]
     },
@@ -779,6 +879,38 @@
         {
           "id": "grek",
           "value": "greco"
+        },
+        {
+          "id": "armn",
+          "value": "armenian"
+        },
+        {
+          "id": "cyrl",
+          "value": "cirillic"
+        },
+        {
+          "id": "geor",
+          "value": "georgian"
+        },
+        {
+          "id": "hebr",
+          "value": "hebrew"
+        },
+        {
+          "id": "hans",
+          "value": "chinese"
+        },
+        {
+          "id": "jpan",
+          "value": "japanese"
+        },
+        {
+          "id": "arab",
+          "value": "arabic"
+        },
+        {
+          "id": "deva",
+          "value": "indian"
         }
       ]
     },
@@ -790,12 +922,32 @@
           "value": "---"
         },
         {
+          "id": "charcoal",
+          "value": "charcoal"
+        },
+        {
+          "id": "candlesmoke",
+          "value": "candlesmoke"
+        },
+        {
           "id": "graffiti",
-          "value": "graffito"
+          "value": "graffiti"
+        },
+        {
+          "id": "graphite",
+          "value": "graphite"
         },
         {
           "id": "ink",
-          "value": "inchiostro"
+          "value": "ink"
+        },
+        {
+          "id": "punch",
+          "value": "punch"
+        },
+        {
+          "id": "paint",
+          "value": "paint"
         }
       ]
     },
@@ -804,15 +956,39 @@
       "entries": [
         {
           "id": "-",
-          "value": "---"
+          "entries": "---"
         },
         {
-          "id": "pen",
-          "value": "penna"
+          "id": "charcoal",
+          "value": "charcoal"
+        },
+        {
+          "id": "nail",
+          "value": "nail"
+        },
+        {
+          "id": "gradine",
+          "value": "gradine"
         },
         {
           "id": "blade",
-          "value": "lama"
+          "value": "blade"
+        },
+        {
+          "id": "marker",
+          "value": "marker"
+        },
+        {
+          "id": "pen",
+          "value": "pen"
+        },
+        {
+          "id": "brush",
+          "value": "brush"
+        },
+        {
+          "id": "stencil",
+          "value": "stencil"
         }
       ]
     },
